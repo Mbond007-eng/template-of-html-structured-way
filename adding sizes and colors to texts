@@ -1,0 +1,28 @@
+h1 {
+  font-size: 3.250rem;                        >>>   so in order to have  presize  size: need to  use rem- 1.20rem=  26.08px
+
+                                              we know the font text  size - 26.08px  / 16edinic ( 1 edinic ) = 
+  margin-top: 20px;
+  margin: 50px auto 0 auto;                       <!-- set space between h1 and h2 --> 
+                                               /* when have specified margin-top: 0; then color covered paragraph evenly */
+  font-family: 'Sacramento', cursive;
+}
+
+
+h2 {
+  font-size: 1.20rem;                       <!-- plus with rem it is easier to debug later --> 
+  font-family: 'Montserrat', sans-serif;
+}   
+
+
+adding colors to fonts  
+     
+       h1 { 
+         color: #66BFBF;
+         font-size: 3.250rem;
+         } 
+          
+           
+           .pro  {
+              font-weight: normal;
+                  }    
