@@ -1,0 +1,32 @@
+Html code - 
+ <div class="skill-row">
+        <h3>My Projects</h3>
+        <p> Will be available in the Fall 2021</p>
+
+        <h3>Great Challanges</h3> <!-- Hot Wings Challange- from Angela -->
+        <img src="https://media.giphy.com/media/IwTWTsUzmIicM/giphy.gif" class="giphy-animatedlink" alt="animatedweb-img"> <!-- Need an logo image or an image -->
+        <p><i>"A person who has never made a mistake has never tried anything new."</i>
+          <br>
+          <b>Albert Enstein</b>
+        </p>
+      </div>
+      
+      
+      
+     >>> css 
+ 
+ skill-row {
+   width: 50px;
+   margin: 100px auto 100px auto; - it goes as clockwise  
+ } 
+  
+  
+   text-align: left; added to skill-row 
+   
+ skill-row {
+   width: 50px;
+   margin: 100px auto 100px auto; - it goes as clockwise  
+   text-align: left;
+ } 
+  
+ 
