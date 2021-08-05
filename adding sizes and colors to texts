@@ -10,8 +10,9 @@ h1 {
 
 
 h2 {
-  font-size: 1.20rem;                       <!-- plus with rem it is easier to debug later --> 
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.20rem;                        /* plus with rem it is easier to debug later */
+  font-family: 'Montserrat', sans-serif; 
+    font-weight: normal;                   /* font weight- boldness of the text is off */
 }   
 
 
@@ -20,9 +21,23 @@ adding colors to fonts
        h1 { 
          color: #66BFBF;
          font-size: 3.250rem;
+         line-height: 2-                 /* 1- digit will be by default, and 2 will be doubled */  
          } 
           
+          
+         corrected  > after analyzing why italic font as not been reflected in the browser: 
+          realised that in order to reflect Italic style ( tangerine for instance ) - need to delete < line-height:2> 
+          so mean time 
+          h1 {
+  font-size: 3.250rem;
+  margin-top: 20px;
+  margin: 50px auto 0 auto;
+  /* when have specified margin-top: 0; then color covered paragraph evenly */
+  font-family: 'Tangerine', cursive;
+  color: #66BFBF;
+        }
+           
            
            .pro  {
-              font-weight: normal;
+              
                   }    
